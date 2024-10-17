@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<resultados>
+    <departamentos>
+        <AltaVerapaz>
+            <cantidadVentas>12</cantidadVentas>
+        </AltaVerapaz>
+        <Chimaltenango>
+            <cantidadVentas>3</cantidadVentas>
+        </Chimaltenango>
+        <Guatemala>
+            <cantidadVentas>12</cantidadVentas>
+        </Guatemala>
+        <Huehuetenango>
+            <cantidadVentas>8</cantidadVentas>
+        </Huehuetenango>
+        <Izabal>
+            <cantidadVentas>8</cantidadVentas>
+        </Izabal>
+        <Jalapa>
+            <cantidadVentas>10</cantidadVentas>
+        </Jalapa>
+        <Jutiapa>
+            <cantidadVentas>8</cantidadVentas>
+        </Jutiapa>
+        <Petén>
+            <cantidadVentas>5</cantidadVentas>
+        </Petén>
+        <Quiché>
+            <cantidadVentas>4</cantidadVentas>
+        </Quiché>
+        <SanMarcos>
+            <cantidadVentas>6</cantidadVentas>
+        </SanMarcos>
+        <SantaRosa>
+            <cantidadVentas>3</cantidadVentas>
+        </SantaRosa>
+    </departamentos>
+</resultados>

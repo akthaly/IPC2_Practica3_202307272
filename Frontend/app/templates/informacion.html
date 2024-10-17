@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+  <title>Informacion</title>
+</head>
+
+<body>
+  <!-- Extensión de la Navbar -->
+  {% extends 'NavBar.html' %}
+
+  {% block contenido %}
+  
+  <div class="body">
+    
+    <section class="mx-auto max-w-xl  cards-container">
+      <div class="cardInfo text-center">
+        <h1 class="fredokaBold fontColorBeige sm:text-4xl">Información Personal</h1>
+        <p class="fredokaSemiBold text-xl text-white py-5">Nombre: Bryan Alejandro Anona Paredes. <br>
+          Carnet: 202307272. <br>
+          CUI: 3060396800304. <br>
+          Carrera: Ingeniería en Ciencias y Sistemas. <br>
+          Universidad: Universidad de San Carlos de Guatemala.<br>
+          
+        </p>
+        <div class="flex items-center justify-center gap-x-6">
+          <a href="https://github.com/akthaly" class="text-white fredokaSemiBold botones">Github</a>
+        </div>
+      </div>
+    </section>
+    <section class="py-10"> 
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Contacto:</h1>
+      <div class="grid grid-cols-3 gap-4 py-10 ">
+        <a href="www.facebook.com/2002.xzh/" class="hover:underline block text-lg font-bold leading-8 fontColorBlack text-center">Facebook</a>
+        <a href="www.instagram.com/eustass.xzh" class="hover:underline block text-lg font-bold leading-8 fontColorBlack text-center">Instagram</a>
+        <a href="https://www.linkedin.com/in/alejandro-anona-xzh/" class="hover:underline block text-lg font-bold fontColorBlack text-center">Linkedin</a>
+      </div>
+    </section>
+
+  </div>
+  
+  {% endblock %}
+
+</body>
+
+</html>
