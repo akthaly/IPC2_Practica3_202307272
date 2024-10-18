@@ -59,7 +59,6 @@ def mostrarResultadosXML(request):
         return render(request, 'datos.html', {'response': 'Error al obtener los resultados'})
     
 def mostrar_grafica(request):
-    # Realiza la solicitud GET para obtener los datos de la gráfica
     response = requests.get(api + '/config/getGrafica')
     
     if response.status_code == 200:

@@ -143,19 +143,5 @@ def generarResumenVentasJson():
     # Retornar la respuesta como JSON
     return jsonify(resultados)
 
-@app.route('/config/obtenerVentas', methods=['GET'])
-def getVentas():
-    ventas = []
-    for venta in listadoVentas:
-        ventas.append({'Departamento': venta.departamento , 'Fecha de Creacion': venta.fecha})
-
-    return jsonify({'Ventas': ventas})
-
-
-@app.route('/config/limpiarDatos', methods=['GET'])
-def limpiarDatos():
-    listadoVentas.clear()
-    return jsonify({'message': 'Datos limpiados'})
-
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
